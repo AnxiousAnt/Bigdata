@@ -18,3 +18,6 @@ fields terminated by ','
 lines terminated by '\n'
 stored as textfile location 'hdfs://namenode:8020/user/hive/warehouse/testdb.db/grades';
 
+
+
+CREATE TABLE Grades (id string, sID int, typeZero string, typeOne string, typeTwo string, typeThree string, scoreZero double, scoreOne double, scoreTwo double, scoreThree double, classID int) row format delimited fields terminated by ',';
